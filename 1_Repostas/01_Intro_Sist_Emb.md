@@ -25,21 +25,38 @@
 
 #*4*. Cite arquiteturas possíveis e as diferenças entre elas.
       
-      Microcontroladores - São circuitos integrados, capazes serem reprogramados, é principalmente utilizado
-      para para sistemas embarcados. Composto de uma unidade de processamento e das memórias de dados e de   
-      programa além de dispositivos de entrada e saída.
+      Microcontroladores - São circuitos integrados, capazes serem reprogramados por meio de software, é 
+      principalmente utilizado  para para sistemas embarcados. Geralmente contém no mínimo sua unidade de
+      processamento, memória de programa e memória de dados, podem conter também periféricos, como conversores
+      analógicos-digitais.
       
-      GPPs -
+      GPPs - São os processadores de propósito geral, presente na maioria dos computadores desktops e laptops,  
+      neles há uma maior modularização dos seus componentes, tornando mais fácil sua costumização, é fácil  
+      mudar a memória RAM de um computador pessoal. Outra característica, é que geralmente nesses computadores  
+      não é tão considerado as limitações físicas, tanto espaciais quanto de temperatura, devido a possibilidade  
+      de maiores gabinetes e melhores sistemas de resfriamento.
       
-      DSPs -
+      DSPs - São microcontroladores especializados em processamento de sinais, se destacam em relação aos outros 
+      quando são utilizados para filtros digitais e analises de Fourier
       
-      FPGAs -
+      FPGAs - As FPGAs são placas de hardware reprogramável, utilizando de arranjos de portas reprogramáveis, as
+      FPGAs podem utilizar de processamento parelelo específico a cada caso, elevando ao máximo a performance da
+      placa, porém, isso ocasiona um custo muito elevado, restringindo seu nicho de aplicações. Ainda uma das
+      maiores forças das FPGAs encontra-se na sua capacidade de prototipagem, é possível simular praticamente
+      todo tipo de hardware, uma importante parte do desenvolvimento de um ASIC é sua simulação em uma FPGA.
       
-      ASICs -
+      ASICs - São os chips desenvolvidos para exercer uma função específica, é desenvolvido um hardware especifico
+      que atenda as especificações do problema. O chip individual de um ASIC é extremamente mais barato que outras
+      soluções, o problema de sua utilização está em seu custo de desenvolvimento, sendo muito superior a qualquer
+      outra das tecnologias citadas, sendo assim, os ASICs são utilizados quando há a necessidade de produção em
+      larga escala, e o custo de desenvolvimento pode ser dissolvido em uma quantidade imensa de unidades.
       
-      SoCs -
+      SoCs - São chips que contém todos os componentes necessários para se realizar o processamento de dados, desde
+      o um microprocessador até as periféricos que controlam as I/O, são similares aos microcontroladores , porém,
+      seu poder computacional se assemelha muito mais aos GPPs, e eles requer menos periféricos externos aos chips,
+      para funcionar.
       
-      MPSoCs -
+      MPSoCs - São SoCs que possuem mais de um processador em seu chip.
 
 #*5*. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
 
