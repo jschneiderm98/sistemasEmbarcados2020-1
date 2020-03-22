@@ -18,7 +18,7 @@ Para todas as questões, escreva os comandos correspondentes no terminal.
 
 #**5**. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
 
-![questao5](https://i.imgur.com/mkbgHZ3.png)
+![questao5](https://i.imgur.com/gRAAKNh.png)
 
 #**6**. Liste somente os arquivos com extensão .txt.
 
