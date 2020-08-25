@@ -62,7 +62,8 @@
 
 #**5**. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
 
-      Porque é um SoC com bastante documentação, o que facilita a criação de projetos, resolução de problemas; além de ter um preço relativamente acessível.
+      Porque é um SoC com bastante documentação, o que facilita a criação de projetos, resolução de 
+      problemas; além de ter um preço relativamente acessível.
       
 
 
